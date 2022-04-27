@@ -4,12 +4,10 @@
 <dict>
 	<key></key>
 	<string></string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Bolehkan mengakses library mu?</string>
-	<key>NSAppleMusicUsageDescription</key>
-	<string>Bolehkan mengakses library mu?</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Bolehkan menggunakan kamera mu?</string>
+	<key>INIntentsSupported</key>
+	<array>
+		<string>Intent</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

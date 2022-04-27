@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D0A93C44-6BB1-4CF9-853E-732C28607A60"
-            shouldBeEnabled = "Yes"
+            uuid = "FBC90671-80B3-4021-80DF-539A13F803B9"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ios-sdk-samples/ControllerDummy/HomeController/HomeViewController.swift"
+            filePath = "../../proses-buat-xcframework-2/qris_sdk_astrapay/qris_sdk_astrapay/qris_sdk_astrapay/QR/QrUI/Client/QRTransactionClient.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "buttonAction()"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "getTransactionBalance(completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

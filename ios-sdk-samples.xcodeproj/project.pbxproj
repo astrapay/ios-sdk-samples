@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0E6BAD2818F271004AB9C3 /* qris_sdk_astrapay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0E6BAB2818F26C004AB9C3 /* qris_sdk_astrapay.xcframework */; };
+		0D0E6BAE2818F271004AB9C3 /* qris_sdk_astrapay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0E6BAB2818F26C004AB9C3 /* qris_sdk_astrapay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D436CE0281153A30068FA25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D436CDF281153A30068FA25 /* AppDelegate.swift */; };
 		0D436CE2281153A30068FA25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D436CE1281153A30068FA25 /* SceneDelegate.swift */; };
 		0D436CE4281153A30068FA25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D436CE3281153A30068FA25 /* ViewController.swift */; };
 		0D436CE7281153A30068FA25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D436CE5281153A30068FA25 /* Main.storyboard */; };
 		0D436CE9281153A60068FA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D436CE8281153A60068FA25 /* Assets.xcassets */; };
 		0D436CEC281153A60068FA25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D436CEA281153A60068FA25 /* LaunchScreen.storyboard */; };
-		0D97D6CA2815833900E3D7D8 /* qris_sdk_astrapay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D97D6C82815832900E3D7D8 /* qris_sdk_astrapay.framework */; platformFilter = ios; };
-		0D97D6CB2815833900E3D7D8 /* qris_sdk_astrapay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D97D6C82815832900E3D7D8 /* qris_sdk_astrapay.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0D97D6D228158B1D00E3D7D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97D6D028158B1D00E3D7D8 /* LoginViewController.swift */; };
 		0D97D6D328158B1D00E3D7D8 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D97D6D128158B1D00E3D7D8 /* LoginViewController.xib */; };
 		0D97D6D628158CB100E3D7D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D97D6D428158CB100E3D7D8 /* HomeViewController.swift */; };
@@ -31,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0D97D6CB2815833900E3D7D8 /* qris_sdk_astrapay.framework in Embed Frameworks */,
+				0D0E6BAE2818F271004AB9C3 /* qris_sdk_astrapay.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D0E6BAB2818F26C004AB9C3 /* qris_sdk_astrapay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = qris_sdk_astrapay.xcframework; sourceTree = "<group>"; };
 		0D436CDC281153A30068FA25 /* ios-sdk-samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sdk-samples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D436CDF281153A30068FA25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D436CE1281153A30068FA25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		0D436CE8281153A60068FA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D436CEB281153A60068FA25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D436CED281153A60068FA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D97D6C82815832900E3D7D8 /* qris_sdk_astrapay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = qris_sdk_astrapay.framework; path = "../../../../../../../../../Library/Developer/Xcode/DerivedData/qris_sdk_astrapay-eiqalzdyqegtemfnbiofxrshylrx/Build/Products/Debug-iphonesimulator/qris_sdk_astrapay.framework"; sourceTree = "<group>"; };
 		0D97D6D028158B1D00E3D7D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D97D6D128158B1D00E3D7D8 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		0D97D6D428158CB100E3D7D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0E6BAD2818F271004AB9C3 /* qris_sdk_astrapay.xcframework in Frameworks */,
 				AA139D32698AECFDF0E37AC2 /* Pods_ios_sdk_samples.framework in Frameworks */,
-				0D97D6CA2815833900E3D7D8 /* qris_sdk_astrapay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +109,7 @@
 		0D97D6BB28157F5B00E3D7D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0D97D6C82815832900E3D7D8 /* qris_sdk_astrapay.framework */,
+				0D0E6BAB2818F26C004AB9C3 /* qris_sdk_astrapay.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -449,6 +449,9 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-sdk-samples/Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Bolehkan mengakses library mu?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bolehkan menggunakan kamera mu?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Bolehkan mengakses library mu?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,6 +485,9 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-sdk-samples/Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Bolehkan mengakses library mu?";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bolehkan menggunakan kamera mu?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Bolehkan mengakses library mu?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

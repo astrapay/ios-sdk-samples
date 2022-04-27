@@ -9,25 +9,19 @@ import UIKit
 import qris_sdk_astrapay
 class ViewController: UIViewController, QRNewRouterProtocol {
     func didGoBackToHome(viewController: UIViewController) {
-        var homeVC = HomeViewController()
+        let homeVC = HomeViewController()
         viewController.navigationController?.pushViewController(homeVC, animated: true)
     }
     
     func didUnAuthorized(viewControler: UIViewController) {
-        var loginVC = LoginViewController()
+        let loginVC = LoginViewController()
         viewControler.navigationController?.pushViewController(loginVC, animated: true)
     }
     
     func didGoToHistoryList(viewController: UIViewController) {
-        print("Did go to history")
+        let historyVC = HistoryViewController()
+        viewController.navigationController?.pushViewController(historyVC, animated: true)
     }
-    
-    
-    
-    
-
-    
-
     
 //    var router: QRNewRouterSdk?
     @IBOutlet weak var qrisButton: UIButton!
@@ -62,7 +56,7 @@ class ViewController: UIViewController, QRNewRouterProtocol {
 
 extension ViewController: QRConfigurationSdkDataSource{
     var authenticationToken: String? {
-        return "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1MDgwODE4OCwiZXhwIjoxNjUwODExNzg4LCJpYXQiOjE2NTA4MDgxODgsImp0aSI6IjE5MGVkN2E3LTQ2ZDctNDcxMy1iYzM2LTk5NGMxZGEwNjM5ZiIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.NezwuafO_gc8RGTZEtkYR1wtdUDldJYii2qBfRbzcsjyPXN2YZCHbhKYj3SMIvwh3cjyc02L2HSbxaxlzm_s9sTlRh-OAJZabUDUZynkz0AJVMQ9bZQWBVgh-AognojfZ2RL5gPQRIzWdeBDBtHK_ZlrfCSE5AtLOPNbXYgi8_5SrCXrVJlsNJnxXQb1oJJtmm4xlHjI7w8dQ4HmQU9MwWdCKjFUzZ6KJsZNGmPeZtVwvThwSS2zQmjvsYgxpuSCbQyJXJHqGYp5WHKbTvbuWS6X9MxOFpq2KFXjZrQ-P8QAZUZt12ImnhMUbR2w3DTVacubIFHvtnzIz-4T3RlPyA"
+        return   "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1MDk4ODgzOSwiZXhwIjoxNjUwOTkyNDM5LCJpYXQiOjE2NTA5ODg4MzksImp0aSI6ImYwY2EwMDk3LWRkNzgtNDY3Mi04Y2Y1LTJmOTdhZWJlNTNhMyIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.BnqNhJXVtXilUYUuGvtp8v5LDs8UEuDVJCCZqtDDOPMhgmzzDqfL6bnriVVUnD82N3pOzv-CteATuc8eAogqMUcbr0F49dZAGgMMe1wrlOJ2kQMUrdqALxgUE2I1S6kbvs35PxOfpNJEn2daRF4Hfe1Jg9O08GzxnnYGmnR8jDbTT609xD1y38QGLGLkvpyag2vFdQCzOeWMMTAgX62wznhgMOgFU4DPvPczPkBo6kmIUY8HG5PNgFhIcx3O1YMLnwHFOXx6vimOvl812kEg-RGQCv1W_xd2oqEocLjZ4NkxVAAnsF5jUc3q_IdVEGGRoNyp4Ooo38aDOXweX9NUfQ"
     }
     
     var buildMode: BuildMode? {
