@@ -20,8 +20,6 @@
 		0D0E6DD2281A49BF004AB9C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCB281A49BF004AB9C3 /* LoginViewController.swift */; };
 		0D0E6DD3281A49BF004AB9C3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCD281A49BF004AB9C3 /* HomeViewController.xib */; };
 		0D0E6DD4281A49BF004AB9C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCE281A49BF004AB9C3 /* HomeViewController.swift */; };
-		0D0E6DE1281A5011004AB9C3 /* ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0E6DDF281A5000004AB9C3 /* ios_sdk.framework */; platformFilter = ios; };
-		0D0E6DE2281A5011004AB9C3 /* ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0E6DDF281A5000004AB9C3 /* ios_sdk.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +29,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0D0E6DE2281A5011004AB9C3 /* ios_sdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +51,6 @@
 		0D0E6DCB281A49BF004AB9C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D0E6DCD281A49BF004AB9C3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		0D0E6DCE281A49BF004AB9C3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		0D0E6DDF281A5000004AB9C3 /* ios_sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ios_sdk.framework; sourceTree = "<group>"; };
 		5681E9F98751F09CAE400159 /* Pods-ios-sdk-samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-samples.release.xcconfig"; path = "Target Support Files/Pods-ios-sdk-samples/Pods-ios-sdk-samples.release.xcconfig"; sourceTree = "<group>"; };
 		A4BCFCCF9FEE9A70654E8135 /* Pods_ios_sdk_samples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_sdk_samples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,7 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E3969B80340AA57577EAAB /* Pods_ios_sdk_samples.framework in Frameworks */,
-				0D0E6DE1281A5011004AB9C3 /* ios_sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +141,6 @@
 		0D0E6DD5281A4A6A004AB9C3 /* FrameworkFromQris */ = {
 			isa = PBXGroup;
 			children = (
-				0D0E6DDF281A5000004AB9C3 /* ios_sdk.framework */,
 			);
 			path = FrameworkFromQris;
 			sourceTree = "<group>";
@@ -179,8 +173,8 @@
 				0D0E6D9A281A4958004AB9C3 /* Sources */,
 				0D0E6D9B281A4958004AB9C3 /* Frameworks */,
 				0D0E6D9C281A4958004AB9C3 /* Resources */,
-				BB64CAAD02D7AA323CFC06E6 /* [CP] Embed Pods Frameworks */,
 				0D0E6DDA281A4A90004AB9C3 /* Embed Frameworks */,
+				2807DBCB0B290EEBD232E2F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,7 +257,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB64CAAD02D7AA323CFC06E6 /* [CP] Embed Pods Frameworks */ = {
+		2807DBCB0B290EEBD232E2F0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
