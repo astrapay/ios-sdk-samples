@@ -7,7 +7,12 @@
 
 import UIKit
 import ios_sdk
-class ViewController: UIViewController, QRNewRouterProtocol {
+
+class ViewController: UIViewController, QRProtocolSdk{
+    func didOnCancel(viewController: UIViewController) {
+        let loginVC = LoginViewController()
+        viewController.navigationController?.pushViewController(loginVC, animated: true)    }
+    
     func didGoBackToHome(viewController: UIViewController) {
         let homeVC = HomeViewController()
         viewController.navigationController?.pushViewController(homeVC, animated: true)
@@ -25,22 +30,18 @@ class ViewController: UIViewController, QRNewRouterProtocol {
     
 //    var router: QRNewRouterSdk?
     @IBOutlet weak var qrisButton: UIButton!
-    var router: QRNewRouter?
-    var qrConfigurationSdk: QRConfigurationSdk = QRConfigurationSdk()
+    //var router: QRNewRouter?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.qrConfigurationSdk.delegateSdk = self
-        self.setupRouter()
+        self.setupSDK()
         self.setupButton()
-
     }
-    
-    
-    func setupRouter(){
-        self.router = QRNewRouter.qrNewRouterShared
-        self.router?.delegate = self
+    func setupSDK(){
+        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1MjA4MjA1MiwiZXhwIjoxNjUyMDg1NjUyLCJpYXQiOjE2NTIwODIwNTIsImp0aSI6Ijc1YTZmNTBkLWVlYTUtNDg2OC05NTljLWY2MmU0YWNiNTA2ZiIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.MUOrhEBXGac5DfsXSwlHIGvF_fARDtBKbcMDBi2kf0CsR4kzkXtzR6RWUk3ikhNz6_5FGU1v_WFIp0x9Mg7i8ikmkt0OIbe0NmyFSHz3iedhab2htxLObEwPYnxJFgzbAzCrwN5hYPrJyhsk3ywvIuEpreYT-k_8uawh-UfZumSjZgbu520WHR9M-4oDOhd5kIyBSKQL9HbER9RUC1vPpk2EEYQYkbK6310LOEHlb-XjLdmLdeIwQa9NSk0Etwg4R8DGHNcJa82plbhg111HVsKempSVYj0n3HMZ_m27DXHT4ukobJwPGyVEQZ3mo_nfJ5FJArw-V2p60gvHaragvA"
+        QRConfigurationSdk.BUILD_MODE = .sit
+        QRNewRouter.sharedInstance.delegate = self
     }
 
     func setupButton(){
@@ -49,20 +50,20 @@ class ViewController: UIViewController, QRNewRouterProtocol {
 
     
     @objc func buttonAction(){
-        QRNewRouter.navigateToQrScan(from: self)
-        self.qrConfigurationSdk.execute()
+        //self.router?.navigateToQrScan(from: self)
+        QRNewRouter.sharedInstance.navigateToQrScan(from: self)
         print("is clicked")
     }
 }
-
-extension ViewController: QRConfigurationSdkDataSource{
-    var authenticationToken: String? {
-        return   "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1MDk4ODgzOSwiZXhwIjoxNjUwOTkyNDM5LCJpYXQiOjE2NTA5ODg4MzksImp0aSI6ImYwY2EwMDk3LWRkNzgtNDY3Mi04Y2Y1LTJmOTdhZWJlNTNhMyIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.BnqNhJXVtXilUYUuGvtp8v5LDs8UEuDVJCCZqtDDOPMhgmzzDqfL6bnriVVUnD82N3pOzv-CteATuc8eAogqMUcbr0F49dZAGgMMe1wrlOJ2kQMUrdqALxgUE2I1S6kbvs35PxOfpNJEn2daRF4Hfe1Jg9O08GzxnnYGmnR8jDbTT609xD1y38QGLGLkvpyag2vFdQCzOeWMMTAgX62wznhgMOgFU4DPvPczPkBo6kmIUY8HG5PNgFhIcx3O1YMLnwHFOXx6vimOvl812kEg-RGQCv1W_xd2oqEocLjZ4NkxVAAnsF5jUc3q_IdVEGGRoNyp4Ooo38aDOXweX9NUfQ"
-    }
-    
-    var buildMode: BuildMode? {
-        return .sit
-    }
-
-}
+//
+//extension ViewController: QRConfigurationSdkDataSource{
+//    var authenticationToken: String? {
+//        return   "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1MDk4ODgzOSwiZXhwIjoxNjUwOTkyNDM5LCJpYXQiOjE2NTA5ODg4MzksImp0aSI6ImYwY2EwMDk3LWRkNzgtNDY3Mi04Y2Y1LTJmOTdhZWJlNTNhMyIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.BnqNhJXVtXilUYUuGvtp8v5LDs8UEuDVJCCZqtDDOPMhgmzzDqfL6bnriVVUnD82N3pOzv-CteATuc8eAogqMUcbr0F49dZAGgMMe1wrlOJ2kQMUrdqALxgUE2I1S6kbvs35PxOfpNJEn2daRF4Hfe1Jg9O08GzxnnYGmnR8jDbTT609xD1y38QGLGLkvpyag2vFdQCzOeWMMTAgX62wznhgMOgFU4DPvPczPkBo6kmIUY8HG5PNgFhIcx3O1YMLnwHFOXx6vimOvl812kEg-RGQCv1W_xd2oqEocLjZ4NkxVAAnsF5jUc3q_IdVEGGRoNyp4Ooo38aDOXweX9NUfQ"
+//    }
+//
+//    var buildMode: BuildMode? {
+//        return .sit
+//    }
+//
+//}
 
