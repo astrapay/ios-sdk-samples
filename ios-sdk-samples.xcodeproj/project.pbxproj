@@ -19,7 +19,8 @@
 		0D0E6DD2281A49BF004AB9C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCB281A49BF004AB9C3 /* LoginViewController.swift */; };
 		0D0E6DD3281A49BF004AB9C3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCD281A49BF004AB9C3 /* HomeViewController.xib */; };
 		0D0E6DD4281A49BF004AB9C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCE281A49BF004AB9C3 /* HomeViewController.swift */; };
-		0DD3B1822861A6C60018D46C /* ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD3B1812861A6C60018D46C /* ios_sdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0DD3B1CE2861E1630018D46C /* ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD3B1CC2861E0D80018D46C /* ios_sdk.framework */; platformFilter = ios; };
+		0DD3B1CF2861E1630018D46C /* ios_sdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD3B1CC2861E0D80018D46C /* ios_sdk.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E17C52E6233291AD9CCDDD63 /* Pods_ios_sdk_samples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6019552542F7B06F7090426E /* Pods_ios_sdk_samples.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0DD3B1822861A6C60018D46C /* ios_sdk.framework in Embed Frameworks */,
+				0DD3B1CF2861E1630018D46C /* ios_sdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,8 +53,8 @@
 		0D0E6DCB281A49BF004AB9C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D0E6DCD281A49BF004AB9C3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		0D0E6DCE281A49BF004AB9C3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		0DD3B1812861A6C60018D46C /* ios_sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ios_sdk.framework; path = "ios-sdk-samples/FrameworkFromQris/ios_sdk.framework"; sourceTree = "<group>"; };
 		0DD3B1832861A7AC0018D46C /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD3B1CC2861E0D80018D46C /* ios_sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ios_sdk.framework; sourceTree = "<group>"; };
 		4852178819263116AC9110D7 /* Pods-ios-sdk-samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-samples.release.xcconfig"; path = "Target Support Files/Pods-ios-sdk-samples/Pods-ios-sdk-samples.release.xcconfig"; sourceTree = "<group>"; };
 		6019552542F7B06F7090426E /* Pods_ios_sdk_samples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_sdk_samples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB5D9AAC07D048B6C33D35A /* Pods-ios-sdk-samples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-samples.debug.xcconfig"; path = "Target Support Files/Pods-ios-sdk-samples/Pods-ios-sdk-samples.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17C52E6233291AD9CCDDD63 /* Pods_ios_sdk_samples.framework in Frameworks */,
+				0DD3B1CE2861E1630018D46C /* ios_sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +76,6 @@
 		0D0E6D95281A4958004AB9C3 = {
 			isa = PBXGroup;
 			children = (
-				0DD3B1812861A6C60018D46C /* ios_sdk.framework */,
 				0D0E6DA0281A4958004AB9C3 /* ios-sdk-samples */,
 				0D0E6D9F281A4958004AB9C3 /* Products */,
 				64BA0D7624A454210DE58747 /* Pods */,
@@ -146,6 +147,7 @@
 		0D0E6DD5281A4A6A004AB9C3 /* FrameworkFromQris */ = {
 			isa = PBXGroup;
 			children = (
+				0DD3B1CC2861E0D80018D46C /* ios_sdk.framework */,
 			);
 			path = FrameworkFromQris;
 			sourceTree = "<group>";
@@ -442,7 +444,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AC2WTJZZS5;
+				DEVELOPMENT_TEAM = 7HCRY5B7VD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris",

@@ -54,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zaMGxt5/DgkI709NzPBJ7fXuhZQ=
+		xmCmGRxEO2dzGXgsCyceIEB8azk=
 		</data>
 		<key>InterBlack.ttf</key>
 		<data>
@@ -92,37 +92,37 @@
 		<data>
 		hILCur+B4IgA3GTJ7YwzIMg9SOQ=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/ios_sdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		hlBGwHiOmP3VLgh+M+aPk7iF5S4=
+		rbzx3nU/OrKFu2R/QeXknKkBXtg=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/ios_sdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		hlBGwHiOmP3VLgh+M+aPk7iF5S4=
+		rbzx3nU/OrKFu2R/QeXknKkBXtg=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		uQEKgOiV27soW85y/2BbC1TAqgo=
+		Hos30RCwCaEH3aaB/2jAH5r2/hg=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		v/F56AvYfTE+vqeF6gnw5IwVId8=
+		sTzMCqISJZbv/onb2I71AI1ymtY=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GKDt6v3PQGLncPgk4RvOUKCrT3Q=
+		DkwpgDEzx39k/OgKZOrAorALvSI=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		uQEKgOiV27soW85y/2BbC1TAqgo=
+		Hos30RCwCaEH3aaB/2jAH5r2/hg=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/x86_64.swiftinterface</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		v/F56AvYfTE+vqeF6gnw5IwVId8=
+		sTzMCqISJZbv/onb2I71AI1ymtY=
 		</data>
-		<key>Modules/ios_sdk.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GKDt6v3PQGLncPgk4RvOUKCrT3Q=
+		DkwpgDEzx39k/OgKZOrAorALvSI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>QRPopUp.nib</key>
 		<data>
-		hwSw07PfZnZnnmgXsk0Rsiq9RAI=
+		JwQTkyH/Gf3hyVJi/milXQU6tX8=
 		</data>
 		<key>QRPopUpMessage.nib</key>
 		<data>
@@ -474,60 +474,60 @@
 			g74YkfOnudtFeevf5VB0HQrr9FsshFtggdTBYZJOffE=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/ios_sdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWpnTDxDhO6zpdS8tsTy6U/WPcI20xalVpJDpSe7oZo=
+			jCJMRwe/DskFkdr/NSyDEYME8ON4xNQr7yO2kL2NNDM=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/ios_sdk.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWpnTDxDhO6zpdS8tsTy6U/WPcI20xalVpJDpSe7oZo=
+			jCJMRwe/DskFkdr/NSyDEYME8ON4xNQr7yO2kL2NNDM=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/LKNfdvFcR6tWUswIIeBoVNCGKF0zfrl9S+7qDSNM8=
+			+WkTUc1t2NuMuZ6Fn2+MfLCr1TBPu8WXWEbn9SbYnl4=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sCm7bKSmFKF3SDlC5d0RxhR/ZIeoOi8NWs5RkSszBOs=
+			Unl84Um3FaTYQxO8Io9HJNgVNC66Mbufi6rlaA8r140=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJaYO4tL611Rh7TqHWRiZn18wrF3eZA5J9FJEq9n/Ao=
+			H393ddVrW3U8YR7++4Oj0zcrN+zWMppaCrUn0UCFuRI=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/x86_64.swiftdoc</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/LKNfdvFcR6tWUswIIeBoVNCGKF0zfrl9S+7qDSNM8=
+			+WkTUc1t2NuMuZ6Fn2+MfLCr1TBPu8WXWEbn9SbYnl4=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/x86_64.swiftinterface</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sCm7bKSmFKF3SDlC5d0RxhR/ZIeoOi8NWs5RkSszBOs=
+			Unl84Um3FaTYQxO8Io9HJNgVNC66Mbufi6rlaA8r140=
 			</data>
 		</dict>
-		<key>Modules/ios_sdk.swiftmodule/x86_64.swiftmodule</key>
+		<key>Modules/ios_sdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJaYO4tL611Rh7TqHWRiZn18wrF3eZA5J9FJEq9n/Ao=
+			H393ddVrW3U8YR7++4Oj0zcrN+zWMppaCrUn0UCFuRI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -723,7 +723,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xjy+fGacbeaF0JadYUxG+a3DJsOA37UoYnX/w8uyFLI=
+			uwwMsZYffOGe9Uu5lew40/1zC4UBgPnauPJ7DSudukU=
 			</data>
 		</dict>
 		<key>QRPopUpMessage.nib</key>
