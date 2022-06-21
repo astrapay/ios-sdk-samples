@@ -23,16 +23,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E8BCC599-EA8D-44EF-BAEF-72C5559D24E3"
+            uuid = "FB7F4F45-5525-40A4-A993-F36A3C8C115A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ios-sdk-samples/ViewController.swift"
+            filePath = "../../ios-sdk/ios-sdk/ios-sdk/QR/Helper/QrNewRouter/QRNewRouter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "buttonAction()"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "navigateToQrScan(from:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
