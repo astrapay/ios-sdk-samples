@@ -1,7 +1,7 @@
 # Cara penggunaan SDK
-##Pertama
+## Pertama
 di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat contohnya di file podfile)
-###Cara Sebenarnya
+### Cara Sebenarnya
     pod 'ios-sdk-astrapay'
 
     post_install do |installer|
@@ -12,7 +12,7 @@ di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat co
       end
     end
 
-###Cara Sementar (karena belum dipush ke main untuk updatean terbaru)
+### Cara Sementara (karena belum dipush ke main untuk updatean terbaru)
     pod 'ios-sdk-astrapay', :git => 'https://github.com/astrapay/ios-sdk-framework-astrapay.git', :branch => 'daily/gilbert-sdk-main'
     post_install do |installer|
     installer.pods_project.targets.each do |target|
@@ -22,7 +22,7 @@ di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat co
       end
     end
 
-##Kedua
+## Kedua
     setup SDK dengan Auth Token dan tentukan build mode yang diinginkan
     dan meng-delegate delegasi dari QRNewRouterClass yang berisi 4 fungsi yang dijelaskan
     di tahap ke dua:
