@@ -1,7 +1,7 @@
 # Cara penggunaan SDK
 ## Pertama
 di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat contohnya di file podfile)
-### Cara Sebenarnya
+
     pod 'ios-sdk-astrapay'
 
     post_install do |installer|
