@@ -7,7 +7,6 @@
 
 import UIKit
 import ios_sdk
-
 class ViewController: UIViewController, QRProtocolSdk{
     func didOnCancel(viewController: UIViewController) {
         let loginVC = LoginViewController()
@@ -39,9 +38,11 @@ class ViewController: UIViewController, QRProtocolSdk{
         self.setupButton()
     }
     func setupSDK(){
-        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1NTgwOTQ1NywiZXhwIjoxNjU1ODEzMDU3LCJpYXQiOjE2NTU4MDk0NTcsImp0aSI6ImU2NjdlNjMwLTU0YjQtNGIzZS1iMWMwLTM5NGI3MmU1NjI3OCIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.MhygTVbWfTlSbKxypqUrT8IHP87xKIal3rd4Q7pCTftmDrWIF31PGL8pOQ4Nd1aBelEhK2mbAbkDFAVbzItsd2LGdQ_nfnJH5rac2KDd6xN0WxXl07e3VMskgBMrlGtedhMHhx4IMdkcC6uXn5ezmnDbPNL5DpykcAsPbQWe8DE1VZrd_3OoUyHhwyd30Rtau20LIa61Hnv5gpUwQXplHR7oUJn6L875agKF5WzDEHhP2-hV-auPV7s6KJQZgdNdyMz_EFcMkgi9X_NhIWerfCRJkVlZBO6nfrsVvfYLqsx6IEHZD5Hg35JxjmBs1DRL20UNBiy01LIMf9PMlOR0Jg"
+        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1NjI5OTM1MiwiZXhwIjoxNjU2MzAyOTUyLCJpYXQiOjE2NTYyOTkzNTIsImp0aSI6ImEwMjQ4OTJlLWM3YTEtNDBmOC1hNDU0LWFlZmVkNDc5MjM1ZiIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.Q-ufNKU_zqFBkD193NiWqwuu2fuScYm0keP9zT4wGjlEnAe2mY5Yadl6P3bsFmFsU1JJdiJZfYp_WEONMTTRo5fLYI4hQa5lH-wXi1J5DhH-IgZGxf_s2ODBj242SsZVjSIfR9GRjrx5JfJHdWQwZUa7AnFvAx0GFtJDP0ReQ7QkF0gm7w2kJDeoAGH3DQBrFWpoP-SOevtE5ZDVZ1MbMGbtMXAHtkRZ2KXpdqYbJ4JeklQBbWAW2GXu9RZzoK_0eUYDvij08ZAGq_LWiofFugdMRU_OznsPLx9xzN3KDYJgBC_xCgKmOFcn3i2DadxtDHJDEMFw4_rowZCWHuKj9A"
         QRConfigurationSdk.BUILD_MODE = .uat
+        QRConfigurationSdk.SDK_TOKEN = "b983e0e72dd81d804262b9f1a7973ea11a2149df"
         QRNewRouter.sharedInstance.delegate = self
+        
     }
 
     func setupButton(){
