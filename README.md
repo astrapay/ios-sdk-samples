@@ -2,7 +2,7 @@
 ## Pertama
 di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat contohnya di file podfile)
 
-    pod 'ios-sdk-astrapay'
+    pod 'ios-sdk-astrapay', '~> 0.0.0.5'
 
     post_install do |installer|
      installer.pods_project.targets.each do |target|

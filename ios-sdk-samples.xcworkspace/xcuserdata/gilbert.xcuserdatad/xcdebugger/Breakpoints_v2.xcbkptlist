@@ -192,6 +192,21 @@
                   endingLineNumber = "245"
                   offsetFromSymbolStart = "60">
                </Location>
+               <Location
+                  uuid = "2BB695F7-3156-4764-8E9A-6B4D72EF73FE - fd12e71ea63078ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in ios_sdk.QRResultPaymentViewController.buttonSetupForTransactionSuccess() -&gt; ()"
+                  moduleName = "ios_sdk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilbert/Documents/Gilbert/Astrapay/IOS/IOS-V2/proses-buat-xcframework-2/ios-sdk/ios-sdk/ios-sdk/QR/QrUI/QRScreen/QRResultPaymentView/QRResultPaymentViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "44">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -207,7 +222,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
             endingLineNumber = "104"
-            landmarkName = "navigateToGetDetailTransaksi(from:qrGetDetailTransaksiByIdDtoViewData:isPaylater:)"
+            landmarkName = "navigateToGetDetailTransaksi(qrGetDetailTransaksiByIdDtoViewData:isPaylater:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -254,6 +269,21 @@
                   startingLineNumber = "104"
                   endingLineNumber = "104"
                   offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "4BB22778-475C-41DD-815E-B624F51066C6 - a9ef0fa5015e4959"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sdk.QRNewRouter.navigateToGetDetailTransaksi(qrGetDetailTransaksiByIdDtoViewData: ios_sdk.QRGetDetailTransaksiByIdDtoViewData, isPaylater: Swift.Bool) -&gt; ()"
+                  moduleName = "ios_sdk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilbert/Documents/Gilbert/Astrapay/IOS/IOS-V2/proses-buat-xcframework-2/ios-sdk/ios-sdk/ios-sdk/QR/Helper/QrNewRouter/QRNewRouter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "492">
                </Location>
             </Locations>
          </BreakpointContent>
