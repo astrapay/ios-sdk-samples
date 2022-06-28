@@ -8,24 +8,37 @@
 import UIKit
 import ios_sdk
 class ViewController: UIViewController, QRProtocolSdk{
-    func didOnCancel(viewController: UIViewController) {
+    
+    func onCancel(viewController: UIViewController) {
         let loginVC = LoginViewController()
         viewController.navigationController?.pushViewController(loginVC, animated: true)    }
     
-    func didGoBackToHome(viewController: UIViewController) {
+    func onComplete(viewController: UIViewController) {
         let homeVC = HomeViewController()
         viewController.navigationController?.pushViewController(homeVC, animated: true)
     }
 
-    func didUnAuthorized(viewControler: UIViewController) {
+    func onForbidden(viewControler: UIViewController) {
         let loginVC = LoginViewController()
         viewControler.navigationController?.pushViewController(loginVC, animated: true)
     }
 
-    func didGoToHistoryList(viewController: UIViewController) {
+    func onShowHistory(viewController: UIViewController) {
         let historyVC = HistoryViewController()
         viewController.navigationController?.pushViewController(historyVC, animated: true)
     }
+    
+    func onProcessing(viewController: UIViewController){
+        let processing = GeneralViewController(textPage: "Processing Page")
+        viewController.navigationController?.pushViewController(processing, animated: true)
+    }
+    
+    func onFailed(viewController: UIViewController){
+        let failedPage = GeneralViewController(textPage: "Failed Page")
+        viewController.navigationController?.pushViewController(failedPage, animated: true)
+    }
+
+
     
 //    var router: QRNewRouterSdk?
     @IBOutlet weak var qrisButton: UIButton!
@@ -38,9 +51,9 @@ class ViewController: UIViewController, QRProtocolSdk{
         self.setupButton()
     }
     func setupSDK(){
-        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1NjMyNTIxMSwiZXhwIjoxNjU2MzI4ODExLCJpYXQiOjE2NTYzMjUyMTEsImp0aSI6ImQwYzkyODYzLTA0YWEtNDEzNC05Yzg0LWU2ZmUyNjE2YmQ4NCIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.Hhk_gWgO3W-HG0DFGFHVsuKPmXJtpko8KybBF-Wk_ESgt7qB6ZqjcTzgH5AHfcGEO99je88DqvvAP-vWxEZeVjQgCVwDhrn3B-awQKfkPfrZprLxKW03LS2Uu_UaFerBBNVND-JUPpc5V6YpQz0obe3sjoYNx9vXK5zlxJ-tMSuTyhqmO_s7X2lwid5G0a50zSFSk3D-NwMmiwh-yHcy9M4rFn3LdhekeCsCQNh50XjaX2qR4_ldpat3sHueNu9L10PvyxgGC4mowu6QVPIRUI8oxMPsE4Ck3KgTbiLM589uZllF1dRE8fTxZ8c5kob7cNVehpmp5lPVEByulN9L8w"
+        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1NjQxMjkzOCwiZXhwIjoxNjU2NDE2NTM4LCJpYXQiOjE2NTY0MTI5MzgsImp0aSI6IjdjYjQwNmU3LWVhNzYtNDlmZC1iZTkyLTZlM2EzODcyYjAzYiIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.G8pHYJ-IEr_mpSXJEzzPEgxzhZqfuqCPsi59D1CAsJxjAQ_Xt7eKq72O9VGX9D1wQi65cQy60wgezdeUHy74D8uaevasbAm0mBSB1-PjWqPO3rqpqeo9MU8oLTXXAAKZ38ASwbufrMwgfLAXyhVKeVw8wC4vQzCK9ywLgdOvuUzTfaKYas4Yk4hdRF9ZAS3phzPgc9IouQV7Q_0Q0QScgb5KVo9btjGXmaG8s8rMu0UGLIbA6CLmzEKlF9aCNqRJ-dkG-RkCPfiCmwUsC7ZsqxYD0ewr1_M8exPmFLCKZVoz7EgBq7RUN1UkD3sWVz1kIMInAQh2LdSYDirSNIcL3Q"
         QRConfigurationSdk.BUILD_MODE = .uat
-//        QRConfigurationSdk.SDK_TOKEN = "b983e0e72dd81d804262b9f1a7973ea11a2149df"
+        QRConfigurationSdk.SDK_TOKEN = "b983e0e72dd81d804262b9f1a7973ea11a2149df"
         QRNewRouter.sharedInstance.delegate = self
         
     }

@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.6.1)
-  - ios-sdk-astrapay (0.0.0.5):
+  - ios-sdk-astrapay (0.0.0.6):
     - Alamofire
     - IQKeyboardManagerSwift (= 6.3.0)
     - lottie-ios
@@ -92,7 +92,7 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - ios-sdk-astrapay (~> 0.0.0.5)
+  - ios-sdk-astrapay (~> 0.0.0.6)
 
 SPEC REPOS:
   trunk:
@@ -112,7 +112,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
-  ios-sdk-astrapay: 79032ab1db6d3e1ee70dd46c4bac1dff1b83a733
+  ios-sdk-astrapay: 543df6a6875c4a7ffde56e99214d57e45dffd19a
   IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
   lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
@@ -125,6 +125,6 @@ SPEC CHECKSUMS:
   SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 52638a660176f487f1c694c079da5259f8986a18
+PODFILE CHECKSUM: e90e3055b074602e4de83159f4bb7426a5598aae
 
 COCOAPODS: 1.11.3
