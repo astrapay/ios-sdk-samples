@@ -2,7 +2,7 @@
 ## Pertama
 di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat contohnya di file podfile)
 
-    pod 'ios-sdk-astrapay', '~> 0.0.0.5'
+    pod 'ios-sdk-astrapay'
 
     post_install do |installer|
      installer.pods_project.targets.each do |target|
@@ -28,14 +28,19 @@ di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat co
 
 ## Ketiga
 Mengimplementasikan 4 fungsi atau callback:
-- func didOnCancel(viewController: UIViewController)
+- func OnCancel(viewController: UIViewController)
   - untuk mengimplementasikan tombol back di QRScanner page
-- func didGoBackToHome(viewController: UIViewController)
-  - Untuk mengimplementasikan tombol "Kembali ke Beranda"
-- func didUnAuthorized(viewControler: UIViewController)
+- func onComplete(viewController: UIViewController)
+  - Untuk mengimplementasikan tombol "Kembali ke Beranda" pada Halaman Transaction Sukses
+- func onForbidden(viewControler: UIViewController)
   - Untuk mengimplementasikan jika token habis
-- func didGoToHistoryList(viewController: UIViewController)
-  - Untuk mengimplementasikan tombol "Lihat Riwayat" jika saat melakukan transaksi mengalami timeout
+- func onShowHistory(viewController: UIViewController)
+  - Untuk mengimplementasikan tombol "Lihat Riwayat" di halaman Transaction Process jika saat melakukan transaksi mengalami timeout
+- func onProcessing(viewController: UIViewController)
+  - Untuk mengimplementasikan tombol "Kembali Ke Beranda" pada halaman Transaction Process
+- func onFailed(viewController: UIViewController)
+  - Untuk mengimpelemtasikan Kembali Ke Beranda pada halaman Transaction Failed
+
 
 ## Keempat
 Anda perlu meng-trigger fungsi:
