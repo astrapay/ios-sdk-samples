@@ -7,7 +7,6 @@
 
 import UIKit
 import ios_sdk
-
 class ViewController: UIViewController, QRProtocolSdk{
     func didOnCancel(viewController: UIViewController) {
         let loginVC = LoginViewController()
@@ -39,9 +38,11 @@ class ViewController: UIViewController, QRProtocolSdk{
         self.setupButton()
     }
     func setupSDK(){
-        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1NTgwOTQ1NywiZXhwIjoxNjU1ODEzMDU3LCJpYXQiOjE2NTU4MDk0NTcsImp0aSI6ImU2NjdlNjMwLTU0YjQtNGIzZS1iMWMwLTM5NGI3MmU1NjI3OCIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.MhygTVbWfTlSbKxypqUrT8IHP87xKIal3rd4Q7pCTftmDrWIF31PGL8pOQ4Nd1aBelEhK2mbAbkDFAVbzItsd2LGdQ_nfnJH5rac2KDd6xN0WxXl07e3VMskgBMrlGtedhMHhx4IMdkcC6uXn5ezmnDbPNL5DpykcAsPbQWe8DE1VZrd_3OoUyHhwyd30Rtau20LIa61Hnv5gpUwQXplHR7oUJn6L875agKF5WzDEHhP2-hV-auPV7s6KJQZgdNdyMz_EFcMkgi9X_NhIWerfCRJkVlZBO6nfrsVvfYLqsx6IEHZD5Hg35JxjmBs1DRL20UNBiy01LIMf9PMlOR0Jg"
+        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1NjMyNTIxMSwiZXhwIjoxNjU2MzI4ODExLCJpYXQiOjE2NTYzMjUyMTEsImp0aSI6ImQwYzkyODYzLTA0YWEtNDEzNC05Yzg0LWU2ZmUyNjE2YmQ4NCIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.Hhk_gWgO3W-HG0DFGFHVsuKPmXJtpko8KybBF-Wk_ESgt7qB6ZqjcTzgH5AHfcGEO99je88DqvvAP-vWxEZeVjQgCVwDhrn3B-awQKfkPfrZprLxKW03LS2Uu_UaFerBBNVND-JUPpc5V6YpQz0obe3sjoYNx9vXK5zlxJ-tMSuTyhqmO_s7X2lwid5G0a50zSFSk3D-NwMmiwh-yHcy9M4rFn3LdhekeCsCQNh50XjaX2qR4_ldpat3sHueNu9L10PvyxgGC4mowu6QVPIRUI8oxMPsE4Ck3KgTbiLM589uZllF1dRE8fTxZ8c5kob7cNVehpmp5lPVEByulN9L8w"
         QRConfigurationSdk.BUILD_MODE = .uat
+//        QRConfigurationSdk.SDK_TOKEN = "b983e0e72dd81d804262b9f1a7973ea11a2149df"
         QRNewRouter.sharedInstance.delegate = self
+        
     }
 
     func setupButton(){
@@ -52,6 +53,7 @@ class ViewController: UIViewController, QRProtocolSdk{
     @objc func buttonAction(){
         //self.router?.navigateToQrScan(from: self)
         QRNewRouter.sharedInstance.navigateToQrScan(from: self)
+//        self.navigationController?.pushViewController(WebTopUpViewController(nibName: "WebTopUpViewController", bundle: Bundle(identifier: "com.astrapay.ios-sdk")), animated: true)
         print("is clicked")
     }
 }
