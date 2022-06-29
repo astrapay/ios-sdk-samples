@@ -19,6 +19,7 @@
 		0D0E6DD2281A49BF004AB9C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCB281A49BF004AB9C3 /* LoginViewController.swift */; };
 		0D0E6DD3281A49BF004AB9C3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCD281A49BF004AB9C3 /* HomeViewController.xib */; };
 		0D0E6DD4281A49BF004AB9C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E6DCE281A49BF004AB9C3 /* HomeViewController.swift */; };
+		0D984018286B0F88000C615F /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D984017286B0F88000C615F /* GeneralViewController.swift */; };
 		740BBEC52639F50FFCDBCE12 /* Pods_ios_sdk_samples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9052625FE908E789A0EA01A /* Pods_ios_sdk_samples.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		0D0E6DCB281A49BF004AB9C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D0E6DCD281A49BF004AB9C3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		0D0E6DCE281A49BF004AB9C3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0D984017286B0F88000C615F /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		0DD3B1832861A7AC0018D46C /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE8C4AF5054934FB6D76D3E /* Pods-ios-sdk-samples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-samples.debug.xcconfig"; path = "Target Support Files/Pods-ios-sdk-samples/Pods-ios-sdk-samples.debug.xcconfig"; sourceTree = "<group>"; };
 		C9C8713439B6DC75CD503ACE /* Pods-ios-sdk-samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-samples.release.xcconfig"; path = "Target Support Files/Pods-ios-sdk-samples/Pods-ios-sdk-samples.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		0D0E6DC5281A49BF004AB9C3 /* ControllerDummy */ = {
 			isa = PBXGroup;
 			children = (
+				0D984016286B0F3B000C615F /* GeneralViewController */,
 				0D0E6DC6281A49BF004AB9C3 /* HistoryController */,
 				0D0E6DC9281A49BF004AB9C3 /* LoginController */,
 				0D0E6DCC281A49BF004AB9C3 /* HomeController */,
@@ -144,6 +147,14 @@
 			children = (
 			);
 			path = FrameworkFromQris;
+			sourceTree = "<group>";
+		};
+		0D984016286B0F3B000C615F /* GeneralViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D984017286B0F88000C615F /* GeneralViewController.swift */,
+			);
+			path = GeneralViewController;
 			sourceTree = "<group>";
 		};
 		64BA0D7624A454210DE58747 /* Pods */ = {
@@ -284,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0E6DA6281A4958004AB9C3 /* ViewController.swift in Sources */,
+				0D984018286B0F88000C615F /* GeneralViewController.swift in Sources */,
 				0D0E6DA2281A4958004AB9C3 /* AppDelegate.swift in Sources */,
 				0D0E6DA4281A4958004AB9C3 /* SceneDelegate.swift in Sources */,
 				0D0E6DD2281A49BF004AB9C3 /* LoginViewController.swift in Sources */,
