@@ -47,6 +47,11 @@ Anda perlu meng-trigger fungsi:
 **QRNewRouter.sharedInstance.navigateToQrScan(from: self)**
 dengan tujuan agar dapat berpindah ke page QRScanner
 
+Dan juga perlu mengtrigger fungsi:
+**WebviewRouter.sharedInstance.navigateToWebviewRouter(self)**
+untuk berpindah ke page WebView top up
+
+
 **Anda bisa melihat contoh implementasi dari semua ini di kelas ViewController**
 
 
