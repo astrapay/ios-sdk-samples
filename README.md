@@ -27,7 +27,7 @@ di Podfile kalian perlu meng-import sdk dengan cara di bawah (Anda bisa lihat co
     }
 
 ## Ketiga
-Mengimplementasikan 4 fungsi atau callback:
+Mengimplementasikan 6 fungsi atau callback:
 - func OnCancel(viewController: UIViewController)
   - untuk mengimplementasikan tombol back di QRScanner page
 - func onComplete(viewController: UIViewController)
