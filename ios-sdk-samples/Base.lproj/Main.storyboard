@@ -17,14 +17,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMf-eG-NAx">
-                                <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
+                                <rect key="frame" x="170" y="432.5" width="74" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="To Qris "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lz0-nA-Vdn">
+                                <rect key="frame" x="153" y="488" width="108" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="To Web View"/>
+                                <connections>
+                                    <action selector="webViewButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="Us0-yh-aUb"/>
+                                    <action selector="webViewButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1cC-rF-HyU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Lz0-nA-Vdn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="6XL-1v-3ai"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lz0-nA-Vdn" secondAttribute="trailing" constant="153" id="6d7-TU-jLe"/>
+                            <constraint firstItem="Lz0-nA-Vdn" firstAttribute="top" secondItem="aMf-eG-NAx" secondAttribute="bottom" constant="24.5" id="PKC-xd-TWm"/>
                             <constraint firstItem="aMf-eG-NAx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Swj-j9-3Zl"/>
                             <constraint firstItem="aMf-eG-NAx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zFc-xP-Pbg"/>
                         </constraints>
@@ -32,6 +44,7 @@
                     <navigationItem key="navigationItem" id="Bpj-f1-a6I"/>
                     <connections>
                         <outlet property="qrisButton" destination="aMf-eG-NAx" id="TtM-21-n5P"/>
+                        <outlet property="webViewButton" destination="Lz0-nA-Vdn" id="ucQ-hq-uoF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
