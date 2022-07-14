@@ -17,11 +17,11 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
-  "ios_sdk.xcframework/ios-x86_64-simulator")
-    echo "simulator"
-    ;;
   "ios_sdk.xcframework/ios-arm64")
     echo ""
+    ;;
+  "ios_sdk.xcframework/ios-x86_64-simulator")
+    echo "simulator"
     ;;
   esac
 }
@@ -29,11 +29,11 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
-  "ios_sdk.xcframework/ios-x86_64-simulator")
-    echo "x86_64"
-    ;;
   "ios_sdk.xcframework/ios-arm64")
     echo "arm64"
+    ;;
+  "ios_sdk.xcframework/ios-x86_64-simulator")
+    echo "x86_64"
     ;;
   esac
 }
@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/ios-sdk-astrapay/ios_sdk.xcframework" "ios-sdk-astrapay" "framework" "ios-x86_64-simulator" "ios-arm64"
+install_xcframework "${PODS_ROOT}/ios-sdk-astrapay/ios_sdk.xcframework" "ios-sdk-astrapay" "framework" "ios-arm64" "ios-x86_64-simulator"
 

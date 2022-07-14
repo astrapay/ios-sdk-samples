@@ -22,7 +22,7 @@ target 'ios-sdk-samples' do
 #       end
 #     end
 
-pod 'ios-sdk-astrapay', '~> 0.0.0.6'
+pod 'ios-sdk-astrapay', '~> 0.0.0.7'
 
 
   post_install do |installer|
