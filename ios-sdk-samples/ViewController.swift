@@ -10,8 +10,11 @@ import ios_sdk
 class ViewController: UIViewController, QRProtocolSdk{
     
     func onCancel(viewController: UIViewController) {
-        let loginVC = LoginViewController()
-        viewController.navigationController?.pushViewController(loginVC, animated: true)    }
+
+        //optional
+//        let loginVC = LoginViewController()
+//        viewController.navigationController?.pushViewController(loginVC, animated: true)
+    }
     
     func onComplete(viewController: UIViewController) {
         let homeVC = HomeViewController()

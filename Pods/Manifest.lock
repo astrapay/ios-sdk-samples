@@ -1,9 +1,9 @@
 PODS:
-  - Alamofire (5.6.1)
-  - ios-sdk-astrapay (0.0.0.7):
+  - Alamofire (5.6.2)
+  - ios-sdk-astrapay (0.0.0.9):
     - Alamofire
     - IQKeyboardManagerSwift (= 6.3.0)
-    - lottie-ios
+    - lottie-ios (= 3.2.2)
     - MaterialComponents/Snackbar
     - MYPassthrough
     - SDWebImage
@@ -11,7 +11,7 @@ PODS:
     - SkeletonView
     - SVProgressHUD
   - IQKeyboardManagerSwift (6.3.0)
-  - lottie-ios (3.4.0)
+  - lottie-ios (3.2.2)
   - MaterialComponents/AnimationTiming (124.2.0)
   - MaterialComponents/Availability (124.2.0)
   - MaterialComponents/Buttons (124.2.0):
@@ -83,16 +83,16 @@ PODS:
   - MDFTextAccessibility (2.0.1)
   - MYPassthrough (0.6)
   - Neumann (1.2.0)
-  - SDWebImage (5.13.0):
-    - SDWebImage/Core (= 5.13.0)
-  - SDWebImage/Core (5.13.0)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
   - Sejima (2.0.0):
     - Neumann
   - SkeletonView (1.29.2)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - ios-sdk-astrapay (~> 0.0.0.7)
+  - ios-sdk-astrapay (~> 0.0.0.9)
 
 SPEC REPOS:
   trunk:
@@ -111,20 +111,20 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
-  ios-sdk-astrapay: efa62ac5ddf5bbfd588a45db30ff9b76f5f01d97
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  ios-sdk-astrapay: cb19608fc481c55cd31351840b1b75bb5c20a255
   IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
-  lottie-ios: 69495122151a378fdc7d1bb4c5930347e37baf1f
+  lottie-ios: a033bb989eea77d9f99cc4e2bbdd3788229761ad
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   MYPassthrough: 6a979275646d239a1d169eedbb57714d17b31ed3
   Neumann: 9ce57ac4a26916c47f079e213a442558f2437cf4
-  SDWebImage: 0327043dbb9533e75f2eff8445b3df0f2ceca6ac
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
   Sejima: e76713557f5f6b7ec4f1934ea02fda755775a3b4
   SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: ece2249f200de5cd2295109014590bc6b4831898
+PODFILE CHECKSUM: e79f605a757350f6f0698a04fb17bb5a6dbaffd0
 
 COCOAPODS: 1.11.3
