@@ -7,31 +7,31 @@ target 'ios-sdk-samples' do
 
   #ini diaktifkan hanya jika Anda ingin meng-test sdk dengan cara manual
 #   Pods for ios-sdk-samples
-#     pod 'IQKeyboardManagerSwift', '6.3.0'
-#     pod 'Fabric'
-#     pod 'MaterialComponents/Snackbar'
-#     pod 'lottie-ios'
-#     pod 'Alamofire'
-#     pod 'SkeletonView'
+#      pod 'IQKeyboardManagerSwift', '6.3.0'
+#      pod 'Fabric'
+#      pod 'MaterialComponents/Snackbar'
+#      pod 'lottie-ios', '3.2.2'
+#      pod 'Alamofire'
+#      pod 'SkeletonView'
 #
-#     post_install do |installer|
-#       installer.pods_project.targets.each do |target|
-#         target.build_configurations.each do |config|
-#           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-#         end
-#       end
-#     end
+#      post_install do |installer|
+#        installer.pods_project.targets.each do |target|
+#          target.build_configurations.each do |config|
+#            config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+#          end
+#        end
+#      end
 
-pod 'ios-sdk-astrapay', '~> 0.0.0.7'
+pod 'ios-sdk-astrapay', '~> 0.0.0.9'
 
 
-  post_install do |installer|
-    installer.pods_project.targets.each do |target|
-      target.build_configurations.each do |config|
-        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-      end
-    end
-  end
+ post_install do |installer|
+   installer.pods_project.targets.each do |target|
+     target.build_configurations.each do |config|
+       config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+     end
+   end
+ end
 
 
 
