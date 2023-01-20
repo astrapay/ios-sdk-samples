@@ -1,6 +1,6 @@
 PODS:
-  - Alamofire (5.6.2)
-  - ios-sdk-astrapay (0.0.0.9):
+  - Alamofire (5.6.4)
+  - ios-sdk-astrapay (0.0.0.18):
     - Alamofire
     - IQKeyboardManagerSwift (= 6.3.0)
     - lottie-ios (= 3.2.2)
@@ -83,16 +83,16 @@ PODS:
   - MDFTextAccessibility (2.0.1)
   - MYPassthrough (0.6)
   - Neumann (1.2.0)
-  - SDWebImage (5.13.2):
-    - SDWebImage/Core (= 5.13.2)
-  - SDWebImage/Core (5.13.2)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
   - Sejima (2.0.0):
     - Neumann
-  - SkeletonView (1.29.2)
+  - SkeletonView (1.30.4)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - ios-sdk-astrapay (~> 0.0.0.9)
+  - ios-sdk-astrapay (~> 0.0.0.18)
 
 SPEC REPOS:
   trunk:
@@ -111,8 +111,8 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  ios-sdk-astrapay: cb19608fc481c55cd31351840b1b75bb5c20a255
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ios-sdk-astrapay: abe6df3a99b0346586a270a71be26ac46a68b73f
   IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
   lottie-ios: a033bb989eea77d9f99cc4e2bbdd3788229761ad
   MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
@@ -120,11 +120,11 @@ SPEC CHECKSUMS:
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
   MYPassthrough: 6a979275646d239a1d169eedbb57714d17b31ed3
   Neumann: 9ce57ac4a26916c47f079e213a442558f2437cf4
-  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
   Sejima: e76713557f5f6b7ec4f1934ea02fda755775a3b4
-  SkeletonView: 915a80ecc2b6421ab7ac0f0212321c0cc1406472
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: e79f605a757350f6f0698a04fb17bb5a6dbaffd0
+PODFILE CHECKSUM: 35fd4acdfc05639082d162d354c5e668f871d104
 
 COCOAPODS: 1.11.3

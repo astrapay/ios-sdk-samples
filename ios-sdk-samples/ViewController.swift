@@ -12,8 +12,8 @@ class ViewController: UIViewController, QRProtocolSdk{
     func onCancel(viewController: UIViewController) {
 
         //optional
-//        let loginVC = LoginViewController()
-//        viewController.navigationController?.pushViewController(loginVC, animated: true)
+        let loginVC = LoginViewController()
+        viewController.navigationController?.pushViewController(loginVC, animated: true)
     }
     
     func onComplete(viewController: UIViewController) {
@@ -55,10 +55,12 @@ class ViewController: UIViewController, QRProtocolSdk{
         self.setupButton()
     }
     func setupSDK(){
-        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODU3NzA0NDIyOTgiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoxOTk4NTQsImRldmljZUlkIjoiMTIzIiwidHJhbnNhY3Rpb25JZCI6IiIsInRyYW5zYWN0aW9uVHlwZSI6IiIsIm5iZiI6MTY1Nzc2NjI1NiwiZXhwIjoxNjU3NzY5ODU2LCJpYXQiOjE2NTc3NjYyNTYsImp0aSI6IjcxOTQzNDg0LWNiZTQtNDhkMi04NTg0LTZhYTgxMTI5MzVjYiIsImVtYWlsIjpbImdpbGJlcnQuc3ViYXlAYXN0cmFwYXkuY29tIl19.f_G8sSLB0xNU2Oj5dw-p2CASskJ1y2yeBCoMg3N1FTJdlca_fniUJDFeyzr3xHTeO69qzFK1VYrEs3EzTZor0f2itQQunb7A4FEnBZEnxfDtI5A7XBM3M8lPp7uNXtI1hrVHekTAv3aD3l9AYScSmoSDgHigoHuA5eiFvBMnIytYmdIMZTsY8gDVTINj4XOftPzKN-4ll6Rn2Fn32LxixeOCQao6CMRmwgX0I8eIZOWphPAg90ijzvb8OVd3GR9rm3WhuNE3E9nkHBjZTfdYocrVZuyR6IJfJGTY9BmJNJlAa7du1t6D7RDTHz3b7RhJMHChtr-RTz-T7wym7DgHng"
+//        var sadasd = QRDetailPaymentTVCellAstrapay
+        QRConfigurationSdk.AUTH_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiIwODEyODQ3NjgxMjMiLCJyb2xlcyI6WyJMT0dJTiJdLCJpc3MiOiJBc3RyYVBheS1EZXYiLCJ0eXBlIjoiQUNDRVNTIiwidXNlcklkIjoyMDAxMDMsInRyYW5zYWN0aW9uSWQiOiIiLCJ0cmFuc2FjdGlvblR5cGUiOiIiLCJhY2NvdW50SWQiOjczNywiYWNjb3VudElkUG9pbnQiOjAsIm5iZiI6MTY3MTc2Mjk2OSwidXNlclR5cGUiOiJDVVNUT01FUiIsImV4cCI6MTY3MTc2NjU2OSwiaWF0IjoxNjcxNzYyOTY5LCJqdGkiOiJlZDQ0ZTFkYy1hNTBlLTQ4NDgtYjg5ZC1hODEzN2EzOTIwYzkiLCJlbWFpbCI6WyJzeWRuZXlhaG5hM0BnbWFpbC5jb20iXX0.TXF4mVzIaV3yuaAQp7NH7xv4Opk95y8DVwwWS98F103roOZdtsEUol6c9o8tio7TrvWNHjTqjebi18eCgy1d244eY-6-toSI5nPCVHXMJqDVDLQmWobfPGifkXghD2EJ3Dn3GrFx6mf2FRJzp3HvhimqmknFvK20P1iYqmX04WGmBK6zadSJjINlgNt0Czc8-PKhw4I9zkM7Puqusd1D-XgAEVJjk9lJUwjTN8R6JsY_tA4kDfotTmH54e0GaSZFAdRYK_P08X068XaYE1PYwqa66xuTBmKFvfOmg6ZIWgw9o9zM-Vil_cW_G2SG0hfXTbl3sLW9xTlYGZAdIpsVwA"
         QRConfigurationSdk.BUILD_MODE = .uat
-        QRConfigurationSdk.SDK_TOKEN = "b983e0e72dd81d804262b9f1a7973ea11a2149df"
+        QRConfigurationSdk.SDK_TOKEN = "XTOKEN"
         QRNewRouter.sharedInstance.delegate = self
+
         
     }
 

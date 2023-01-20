@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0D0E6DDA281A4A90004AB9C3 /* Embed Frameworks */ = {
+		0DC31FE629485DF800377BFE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -186,8 +186,8 @@
 				0D0E6D9A281A4958004AB9C3 /* Sources */,
 				0D0E6D9B281A4958004AB9C3 /* Frameworks */,
 				0D0E6D9C281A4958004AB9C3 /* Resources */,
-				0D0E6DDA281A4A90004AB9C3 /* Embed Frameworks */,
-				B8B38D14880D7D0C92845C3D /* [CP] Embed Pods Frameworks */,
+				58C1332882A65A57010C5A33 /* [CP] Embed Pods Frameworks */,
+				0DC31FE629485DF800377BFE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,7 +248,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B8B38D14880D7D0C92845C3D /* [CP] Embed Pods Frameworks */ = {
+		58C1332882A65A57010C5A33 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,11 +451,15 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AC2WTJZZS5;
+				DEVELOPMENT_TEAM = 7HCRY5B7VD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris",
 					"$(PROJECT_DIR)/ios-sdk-samples",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/Pods/Fabric",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/Pods/Fabric/iOS",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/ios-example/Pods/Fabric",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/ios-example/Pods/Fabric/iOS",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-sdk-samples/Info.plist";
@@ -464,7 +468,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,11 +491,15 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AC2WTJZZS5;
+				DEVELOPMENT_TEAM = 7HCRY5B7VD;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris",
 					"$(PROJECT_DIR)/ios-sdk-samples",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/Pods/Fabric",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/Pods/Fabric/iOS",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/ios-example/Pods/Fabric",
+					"$(PROJECT_DIR)/ios-sdk-samples/FrameworkFromQris/astrapay-qris-ios-sdk/ios-example/Pods/Fabric/iOS",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios-sdk-samples/Info.plist";
@@ -500,7 +508,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

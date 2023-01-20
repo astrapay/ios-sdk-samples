@@ -16,7 +16,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
             endingLineNumber = "69"
-            landmarkName = "buttonAction()"
+            landmarkName = "setupButton()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -286,6 +286,294 @@
                   offsetFromSymbolStart = "492">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BA5B149-B8C2-4336-A0C9-E6D09E274F17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRDetailPaymentTVCellPLMC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "didSuccessGetInquiryResponseWithList(listPaylater:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F6B752C-2B94-4BEC-A18D-4351C66EA860"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/QRPLMCDetailPaymentView/QRSelectPaymentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54437075-D3C4-4993-9B30-C0F1431A9EAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/QRPLMCDetailPaymentView/QRSelectPaymentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "741AA53D-90EA-4BA9-8CBE-2C5165CABF90"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/QRPLMCDetailPaymentView/QRSelectPaymentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "setupPaylaterCell(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B3E2EB6-4637-4419-AE7A-799D107B2767"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRDetailPaymentTVCellPLMC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "setupView(content:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1B3E2EB6-4637-4419-AE7A-799D107B2767 - 29ab3a47d5381af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sdk.QRDetailPaymentTVCellPLMC.setupView(content: ios_sdk.QRSelectPaymentViewPayload) -&gt; ()"
+                  moduleName = "ios_sdk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilbert/Documents/Gilbert/Astrapay/IOS/IOS-V2/proses-buat-xcframework-2/ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRDetailPaymentTVCellPLMC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1B3E2EB6-4637-4419-AE7A-799D107B2767 - 29ab3a47d5381af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ios_sdk.QRDetailPaymentTVCellPLMC.setupView(content: ios_sdk.QRSelectPaymentViewPayload) -&gt; ()"
+                  moduleName = "ios_sdk"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gilbert/Documents/Gilbert/Astrapay/IOS/IOS-V2/proses-buat-xcframework-2/ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRDetailPaymentTVCellPLMC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3651020-6D86-4873-B02D-19BA2DBA1793"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRDetailPaymentTVCellPLMC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "didFailedGetInquiryResponseBecauseOfTimeOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "296129A4-1628-47FA-B9AC-A7E40A94C4C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRPLMCDetailPaymentTVCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getInquiryPaylater(content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B427A4CF-378A-4361-B4B7-B4BFC29B9AB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRPLMCDetailPaymentTVCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getInquiryPaylaterClient(content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81823116-1F4F-4912-BA37-16BF4AB46F97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRDetailPaymentTVCellPLMC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "didFailedGetInquiryResponse()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30A15247-324F-44E1-841D-21D0D9AF4B77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../ios-sdk-real/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRPLMCDetailPaymentTVCell/QRPLMCDetailPaymentTVCellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getInquiryPaylaterClient(content:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "484053F2-9A9A-4575-AC8E-9EA83197778C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Github/ios-sdk-existing/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRDetailPaymentTVCellAstrapay/QRDetailPaymentTVCellAstrapayViewMode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "setupViewLogic()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF3507EC-C45F-495D-A335-8C1A1161D342"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Github/ios-sdk-existing/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRDetailPaymentTVCellAstrapay/QRDetailPaymentTVCellAstrapayViewMode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "setupViewLogic()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A4FA1C7-FB95-4346-B329-FD3DDB3593FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Github/ios-sdk-existing/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRDetailPaymentTVCellAstrapay/QRDetailPaymentTVCellAstrapay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "didUserBalanceIsEnoughCompareToAmount(userBalance:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB2AD57E-4661-4E8D-AA86-5214E75D6846"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Github/ios-sdk-existing/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRDetailPaymentTVCellAstrapay/QRDetailPaymentTVCellAstrapayViewMode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "setupViewLogic()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4BFFF4C-54AA-416D-BAA8-AE498587147B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Github/ios-sdk-existing/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRDetailPaymentTVCellAstrapay/QRDetailPaymentTVCellAstrapay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "didUserBalanceIsNotEnoughCompareToAmount(userBalance:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80D954CD-E6FF-4DF9-91FB-48ACD4DDDE2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Github/ios-sdk-existing/astrapay-qris-ios-sdk/ios-sdk/QR/QrUI/Component/SelectPaymentMethodComponent/QRDetailPaymentTVCellAstrapay/QRDetailPaymentTVCellAstrapay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "setupSkeletonView()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
